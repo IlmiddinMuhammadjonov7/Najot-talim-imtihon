@@ -1,0 +1,21 @@
+.button{
+    border: none;
+    background-color: $white;
+    border-radius: 7px;
+    color: $black;
+    font-size: 15px;
+    font-weight: $font-bold;
+    padding: 18px 25px;
+    letter-spacing: 1px;
+}
+
+.button_2{
+    margin-top: 10px;
+    background-color: $peach;
+    color: $white;
+    font-weight: $font-bold;
+    font-size: 15px;
+    border: none;
+    border-radius: 7px;
+    padding: 18px 19px;
+}

@@ -1,0 +1,34 @@
+.card{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+    &__list{
+        background-color: #FDF3F0;
+        text-align: center;
+        width: 350px;
+        height: 478px;
+        border-radius: 10px;
+    }
+    &__img{
+        width: 350px;
+        margin-bottom: 20px;
+    }
+    &__item1{
+        color: $peach;
+        font-size: 20px;
+        font-weight: $font-bold;
+        letter-spacing: 5px;
+    }
+    &__item2{
+        margin-top: 10px;
+        font-size: 16px;
+        font-weight: $font-pasbold;
+        display: inline-block;
+        width: 300px;
+        line-height: 26px;
+        box-sizing: border-box;
+    }
+}

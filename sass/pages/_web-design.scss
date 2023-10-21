@@ -1,0 +1,46 @@
+.design{
+    display: grid;
+    grid-template-columns: 49% 49%;
+    grid-gap: 30px;
+    &__article:first-child{
+        height: 308px;
+        border-radius: 10px;
+        background-image: url('../../Assets/Bitmap.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: $white;
+        font-size: 40px;
+        font-weight: $font-bold;
+        letter-spacing: 2px;
+        display: flex;
+        padding: 0px 70px;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        p{
+            font-size: 15px;
+            letter-spacing: 5px;
+        }
+    }
+    &__article:last-child{
+        height: 308px;
+        border-radius: 10px;
+        background-image: url('../../Assets/Bitmap\ \(1\).jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: $white;
+        font-size: 40px;
+        font-weight: $font-bold;
+        letter-spacing: 2px;
+        display: flex;
+        padding: 0px 70px;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        p{
+            font-size: 15px;
+            letter-spacing: 5px;
+        }
+    }
+
+}

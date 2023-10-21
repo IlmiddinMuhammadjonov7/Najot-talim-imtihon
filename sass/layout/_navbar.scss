@@ -1,0 +1,24 @@
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 44px;
+    margin-bottom: 44px;
+    &__logo{
+        width: 157px;
+    }
+    &__list{
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item:not(:last-child){
+        margin-right: 42px;
+    }
+    &__link{
+        font-size: 14px;
+        letter-spacing: 2px;
+        font-weight: $font-pasbold;
+        color: $black;
+    }
+}

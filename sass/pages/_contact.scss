@@ -1,0 +1,22 @@
+.contact{
+    padding-right: 90px;
+    text-align: end;
+    ::placeholder{
+        color: rgb(237, 235, 235);
+        font-weight: $font-bold;
+        line-height: 26px;
+        font-size: 15px;
+    }
+    input, textarea{
+        border: none;
+        border-bottom: 1px solid $white;
+        width: 380px;
+        font-size: 18px;
+        font-weight: $font-bold;
+        background: none;
+        color: $white;
+        padding: 10px;
+        margin: 10px 0px;
+    }
+    
+}

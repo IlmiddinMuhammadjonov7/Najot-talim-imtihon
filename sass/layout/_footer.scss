@@ -1,0 +1,68 @@
+.footer{
+    margin-top: 140px;
+    
+    &__first{
+        box-sizing: border-box;
+        padding: 0px 90px;
+        background-image: url('../../Assets/Group\ 28.svg');
+        display: flex;
+        height: 292px;
+        align-items: center;
+        justify-content: space-between;
+        z-index: 1;
+    }
+    &__text{
+        width: 268px;
+        color: $white;
+        font-size: 40px;
+        font-weight: $font-bold;
+        line-height: 40px;
+        
+    }
+    &__text2{
+        display: inline-block;
+        width: 459px;
+        font-size: 16px;
+        font-weight: $font-pasbold;
+        line-height: 26px;
+        margin-top: 20px;
+    }
+
+    // #2
+    &__second{
+        background-color: $black;
+        margin-top: -70px;
+        z-index: -2;
+        position: relative;
+        box-sizing: border-box;
+        padding-top: 90px;
+        padding-bottom: 60px;
+    }
+    &__hr{
+        margin-top: -20px;
+        height: 0.2px;
+    }
+    &__list{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+    }
+    &__item1{
+        color: rgb(190, 188, 188);
+        font-size: 16px;
+        line-height: 26px;
+        width: 350px;
+        font-weight: 700;
+        
+    }
+    &__item1:last-child{
+        display: flex;
+        align-items: end;
+        justify-content: end;
+        font-size: 22px;
+        gap: 20px;
+    }
+    &__item1:last-child i{
+        color: $peach;
+    }
+}
